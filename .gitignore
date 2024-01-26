@@ -1,0 +1,7 @@
+__pycache__/
+Data/
+MelissaUpdater
+libmdProfiler.so
+*.hash
+testFile.prf
+# mdProfiler_pythoncode.py

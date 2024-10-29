@@ -34,7 +34,7 @@ And return
 ## Tested Environments
 
 - Linux 64-bit Python 3.8.7, Ubuntu 20.04.05 LTS
-- Melissa data files for 2024-Q3
+- Melissa data files for 2024-Q4
 
 ## Required File(s) and Programs
 #### Binaries
@@ -70,8 +70,8 @@ If you see the version number then you have installed Python3 and set up your en
 
 #### Download this project
 ```
-$ git clone https://github.com/MelissaData/ProfilerObject-Python3-Linux
-$ cd ProfilerObject-Python3-Linux
+git clone https://github.com/MelissaData/ProfilerObject-Python3-Linux
+cd ProfilerObject-Python3-Linux
 ```
 
 #### Set up Melissa Updater
@@ -138,28 +138,28 @@ Parameters:
 - Interactive
     
   The script will prompt the user for a csv file, then use the provided inputs to test Profiler Object. For example:
-    ```
-    $ ./MelissaProfilerObjectLinuxPython3.sh
-    ```
-    For quiet mode:
-    ```
-    $ ./MelissaProfilerObjectLinuxPython3.sh --quiet
-    ```
+  ```
+  ./MelissaProfilerObjectLinuxPython3.sh
+  ```
+  For quiet mode:
+  ```
+  ./MelissaProfilerObjectLinuxPython3.sh --quiet
+  ```
 
 - Command Line
 
   You can pass a csv file and a license string into the `--file` and `--license` parameters respectively to test Profiler Object. For example:
 
-    With all parameters:
-    ```
-    $ ./MelissaProfilerObjectLinuxPython3.sh --file "MelissaProfilerObjectSampleInput.csv"
-    $ ./MelissaProfilerObjectLinuxPython3.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>"
-    ```
-    For quiet mode:
-    ```
-    $ ./MelissaProfilerObjectLinuxPython3.sh --file "MelissaProfilerObjectSampleInput.csv" --quiet
-    $ ./MelissaProfilerObjectLinuxPython3.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>" --quiet
-    ```
+  With all parameters:
+  ```
+  ./MelissaProfilerObjectLinuxPython3.sh --file "MelissaProfilerObjectSampleInput.csv"
+  ./MelissaProfilerObjectLinuxPython3.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>"
+  ```
+  For quiet mode:
+  ```
+  ./MelissaProfilerObjectLinuxPython3.sh --file "MelissaProfilerObjectSampleInput.csv" --quiet
+  ./MelissaProfilerObjectLinuxPython3.sh --file "MelissaProfilerObjectSampleInput.csv" --license "<your_license_string>" --quiet
+  ```
 This is the expected outcome of a successful setup for interactive mode:
 
 
